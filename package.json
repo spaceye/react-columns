@@ -20,7 +20,7 @@
     "deploy": "gh-pages -d demo/dist"
   },
   "peerDependencies": {
-    "react": "15.x"
+    "react": "^15.5.3"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0",
