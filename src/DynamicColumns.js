@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Columns from './index';
+import Columns from './Columns';
 
-export default class DynamicColumns extends Component {
+class DynamicColumns extends Component {
   static displayName = 'DynamicColumns';
 
   static propTypes = {
@@ -157,3 +157,5 @@ export default class DynamicColumns extends Component {
     );
   }
 }
+
+export default DynamicColumns;

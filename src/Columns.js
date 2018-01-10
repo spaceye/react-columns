@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { mediaQueryMapper, matchMediaQuery } from './mq';
 import mapNodesToColumns from './mapNodesToColumns';
 
-export default class Columns extends Component {
+class Columns extends Component {
   static displayName = 'Columns';
 
   static getColumnsNumber(queries) {
@@ -126,3 +126,5 @@ Columns.propTypes = {
   columns: PropTypes.number,
   gap: PropTypes.string
 };
+
+export default Columns;

@@ -1,8 +1,3 @@
-import ReactColumns from './Columns';
-
+export Columns from './Columns';
 export DynamicColumns from './DynamicColumns';
-export * from './mq';
-
-const Columns = ReactColumns;
-
-export default Columns;
+export * as MQ from './mq';
