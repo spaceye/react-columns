@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Columns from './index';
 
 export default class DynamicColumns extends Component {
-
   static displayName = 'DynamicColumns';
 
   static propTypes = {
